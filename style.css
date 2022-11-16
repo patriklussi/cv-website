@@ -1,0 +1,219 @@
+:root {
+	--main-bg-color: rgb(16, 41, 77);
+	--oswald-font: "Oswald", sans-serif;
+	--lato-font: "Lato", sans-serif;
+}
+body {
+	margin: 0;
+	background-color: rgb(82, 86, 89);
+	box-sizing: border-box;
+}
+h1,h2,h3 {
+	margin: 0;
+	font-family: var(--oswald-font);
+	font-weight: normal;
+}
+h4 {
+	font-family: var(--lato-font);
+	margin: 0;
+	margin-top:14px;
+	font-weight: bold;
+}
+p {
+	font-family: var(--lato-font);
+	margin: 10px 0px;
+	font-size: 14px;
+}
+a {
+	text-decoration: none;
+	color:white;
+	text-decoration: underline;
+	font-family: var(--lato-font);
+	font-size: 14px;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.cv-page-wrapper {
+	width: 850px;
+	height: 100%;
+	background-color: red;
+	display: flex;
+	flex-direction: row;
+}
+.main-section {
+	box-sizing: border-box;
+	padding: 55px;
+	width: 70%;
+	background-color: white;
+	height: 100%;
+}
+.main-header {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.picture-box {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background-color: green;
+	display: flex;
+	justify-content: center;
+}
+.work-box {
+	margin:25px 0px;
+}
+.name-box {
+	margin-left: 2rem;
+}
+.name-box p {
+	color: rgb(0, 0, 0);
+	margin: 0;
+	margin-top: 5px;
+	font-weight:600;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+}
+.small-p {
+	font-size: 9px;
+	color: grey;
+	text-transform: uppercase;
+	font-weight:normal;
+	letter-spacing: 2px;
+}
+.education-box {
+	margin:25px 0px;
+}
+.profile {
+	margin-bottom: 20px;
+}
+.references {
+	margin-top: 2rem;
+}
+.references h4  {
+	font-weight: normal;
+}
+.contact-information {
+	margin-bottom: 2rem;
+}
+.contact-information h4 {
+	font-family: var(--oswald-font);
+	font-weight: normal;
+}
+.contact-information p {
+	margin:8px 0px
+}
+.link-box {
+	margin-top:35px;
+}
+.link-box h2 {
+	margin-bottom: 0.5rem;
+}
+.empty-box {
+	height: 4px;
+	width: 100%;
+	background-color: rgb(84, 105, 130);
+}
+.node-fill {
+	height: 100%;
+	width:100%;
+	background-color: rgb(255, 255, 255);
+}
+.css-fill {
+	height: 100%;
+	width:50%;
+	background-color: rgb(255, 255, 255);
+}
+.react-fill {
+	height: 100%;
+	width: 50%;
+	background-color: rgb(255, 255, 255);
+}
+.html5-fill{
+	height: 100%;
+	width: 50%;
+	background-color: rgb(255, 255, 255);
+}
+.git-fill {
+	height: 100%;
+	width: 75%;
+	background-color: rgb(255, 255, 255);
+}
+.js-fill {
+	height: 100%;
+	width: 75%;
+	background-color: rgb(255, 255, 255);
+}
+.ts-fill {
+	height: 100%;
+	width: 50%;
+	background-color: rgb(255, 255, 255);
+}
+.vue-fill {
+	height: 100%;
+	width: 50%;
+	background-color: rgb(255, 255, 255);
+}
+.svelte-fill {
+	height: 100%;
+	width: 25%;
+	background-color: rgb(255, 255, 255);
+}
+.mui-fill {
+	height: 100%;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+.competencies {
+	margin-bottom: 2rem;
+}
+.swe-fill {
+	height: 100%;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+.hu-fill {
+	height: 100%;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+.eng-fill {
+	height: 100%;
+	width: 75%;
+	background-color: rgb(255, 255, 255);
+}
+.side-section {
+	box-sizing: border-box;
+	color: white;
+	padding: 50px;
+	padding-top:160px;
+	flex-grow: 1;
+	background-color: var(--main-bg-color);
+}
+
+
+@media only screen and (max-width: 420px){
+ .cv-page-wrapper {
+  flex-wrap: wrap;
+ }
+ .main-section {
+  width: 100%;
+ }
+}
+
+@media only screen and (max-width: 420px){
+  .cv-page-wrapper {
+   flex-wrap: wrap;
+  }
+  .main-section {
+   width: 100%;
+  }
+ }
