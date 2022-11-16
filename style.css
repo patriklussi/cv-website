@@ -209,11 +209,3 @@ a {
  }
 }
 
-@media only screen and (max-width: 420px){
-  .cv-page-wrapper {
-   flex-wrap: wrap;
-  }
-  .main-section {
-   width: 100%;
-  }
- }
